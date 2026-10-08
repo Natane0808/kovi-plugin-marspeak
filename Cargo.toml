@@ -1,0 +1,9 @@
+[workspace]
+members = ["crates/kovi-plugin-marspeak-milky"]
+resolver = "3"
+
+[workspace.dependencies]
+kovi = "0.13.5"
+kovi-milky = "0.13.5"
+marspeak = "0.2"
+serde = { version = "1", features = ["derive"] }
